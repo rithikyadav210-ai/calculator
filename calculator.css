@@ -1,0 +1,77 @@
+h1{
+    text-align: center;
+    font-size: 100px;  
+    margin-bottom: 10px;
+}
+header{
+   margin-top: 0px;
+  padding:0px; 
+}
+.button{
+    display: grid;
+    grid-template-columns:repeat(4 ,1fr);
+    gap: 11px;
+    padding: 25px;
+   background-color: moccasin;
+    overflow: hidden;
+}
+    
+button{
+    height: 100px;
+    width: 100px;
+    
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+}
+input{
+    height: 100px;
+    width: 490px;
+    border:2px solid blue;
+    text-align: left;
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+}
+button:hover{
+    background-color:rgb(173, 138, 138) 
+}
+button:active{
+    background-color: rgb(219, 204, 204);
+}
+body{
+    
+    height: 780px;
+    width: 500px;
+    text-align: center;
+   
+   border: 2px solid black;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.operation{
+    background-color: orange;
+}
+.answer{
+    background-color: yellow;
+}
+.answer:hover{
+    background-color:rgb(8, 241, 8)
+}
+.answer:active{
+    background-color: green;
+}
+.clear{
+    background-color:yellow;
+}
+
+.clear:hover{
+    background-color: rgb(193, 72, 29);
+}
+.clear:active{
+    background-color: red;
+
+}
